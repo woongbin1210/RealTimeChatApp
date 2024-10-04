@@ -10,17 +10,17 @@
 - 읽음 확인: 각 메시지가 읽히면 "(읽음)" 상태로 업데이트됨.
 
 3) 사용 기술
-- **Backend**: Java, Socket, Multithreading
-- **Frontend**: Java Swing을 사용한 GUI 구성
-- **개발 환경**: Eclipse 또는 IntelliJ 사용 가능
+- Backend: Java, Socket, Multithreading
+- Frontend: Java Swing을 사용한 GUI 구성
+- 개발 환경: Eclipse 또는 IntelliJ 사용 가능
 
 
 4) 설치 및 실행 방법
-### 서버 실행
+- 서버 실행
 1. `ChatServer.java` 파일을 실행합니다.
 2. 서버는 포트 `23456`에서 클라이언트의 연결을 기다립니다.
 
-### 클라이언트 실행
+- 클라이언트 실행
 1. `ChatClient.java` 파일을 실행합니다.
 2. 클라이언트 프로그램에서 닉네임과 서버 IP 주소를 입력합니다. ( 자신의 컴퓨터에서 확인시에는 서버 ip 주소에 localhost 라고 적으시면 됩니다.)
 3. 서버에 연결된 후 실시간으로 채팅을 시작할 수 있습니다.
